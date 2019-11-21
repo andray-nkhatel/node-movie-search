@@ -1,0 +1,21 @@
+<% include partials/header %>
+<div class="container">
+    <div class="jumbotron">
+        <h1><b>Movies Search Page!</b></h1>
+    </div>
+</div>
+
+
+
+<form class="container" action="/results" method="GET">
+    <div class="form-group">
+        <label>Movie Title</label>
+        <input  class="form-control" type="text" name="search" placeholder="movie title">
+        <button class="btn btn-primary" style="margin-top: 8px;">search</button>
+        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+      </div>
+
+    
+</form>
+
+<% include partials/footer %>

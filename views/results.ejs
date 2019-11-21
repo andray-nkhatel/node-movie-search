@@ -1,0 +1,16 @@
+<% include partials/header %>
+
+<% results.Search.forEach((movie)=>{%>
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item"><%= movie.Title %> - <%= movie.Year %></li>
+        </ul>
+        
+    </div>
+   
+<%}) %>
+
+
+<a href="/">return</a>
+
+<% include partials/footer %>
